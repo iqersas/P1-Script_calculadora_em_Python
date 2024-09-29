@@ -1,0 +1,8 @@
+Requisitos
+-------------------------------------
+No Windows
+- Windows 10 ou Windows 11
+- WSL (Windows Subsystem for Linux)
+- Python 3.8 ou superior
+No Linux
+- Python 3.8 ou superior

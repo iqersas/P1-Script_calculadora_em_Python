@@ -16,9 +16,3 @@ Para executar o script, basta executar o seguinte comando em um terminal bash de
 ```bash
 python3 exe_calculadora.sh
 ```
-## Requisitos
-### No Windows
-- WSL (Windows Subsystem for Linux)
-- Python 3.8 ou superior
-### No Linux
-- Python 3.8 ou superior
