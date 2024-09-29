@@ -14,7 +14,7 @@ A aplicação permite ao usuário realizar as operações aritméticas e e
 Para executar o script, basta executar o seguinte comando em um terminal bash dentro da pasta do projeto que você baixou:
 
 ```bash
-python3 exe_calculadora.sh
+python3 ./exe_calculadora.sh
 ```
 # Requisitos
 
