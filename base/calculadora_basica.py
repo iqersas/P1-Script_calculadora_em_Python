@@ -23,7 +23,7 @@ def calcular(op, num1, num2):
 
 def main():
     while True:
-        print("Bem vindo! Para iniciar, por favor escolha uma das seguintes opções:")
+        print("Bem vindo! Para iniciar, por favor escolha uma das seguintes opções:\n")
         print("1 - Soma")
         print("2 - Subtração")
         print("3 - Multiplicação")
