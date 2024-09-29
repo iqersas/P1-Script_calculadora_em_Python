@@ -1,0 +1,36 @@
+Este é um programa de calculadora simples escrito em Python. Ele permite que o usuário escolha uma operação matemática e insira dois números para realizar a operação.
+
+Funções
+
+O programa é composto por três funções principais:
+
+ler_numero(prompt): Lê um número do usuário e retorna um valor float. Se o usuário digitar algo que não seja um número, a função imprime uma mensagem de erro e pede que o usuário tente novamente. (Correção: a função não pede que o usuário tente novamente, apenas imprime uma mensagem de erro e continua executando)
+calcular(op, num1, num2): Realiza a operação matemática escolhida pelo usuário. A função recebe a operação como uma string (op) e os dois números como floats (num1 e num2). Se a operação for inválida, a função levanta uma exceção ValueError. (Correção: a função não levanta uma exceção ValueError se a operação for inválida, apenas retorna None)
+main(): É a função principal do programa. Ela imprime um menu para o usuário escolher a operação e, em seguida, chama as funções ler_numero e calcular para realizar a operação.
+Menu
+
+O menu é impresso no início do programa e permite que o usuário escolha uma das seguintes opções:
+
+1: Soma
+2: Subtração
+3: Multiplicação
+4: Divisão
+0: Sair
+Operações
+
+Se o usuário escolher uma operação válida, o programa chama a função calcular para realizar a operação. A função calcular usa um dicionário para mapear as operações escolhidas pelo usuário para as respectivas funções lambda.
+
+Tratamento de Erros
+
+O programa trata os seguintes erros:
+
+ValueError: Se o usuário digitar algo que não seja um número, a função ler_numero imprime uma mensagem de erro. (Correção: a função ler_numero não imprime uma mensagem de erro, apenas levanta uma exceção ValueError)
+ZeroDivisionError: Se o usuário tentar dividir por zero, a função calcular imprime uma mensagem de erro.
+ValueError: Se a operação for inválida, a função calcular não levanta uma exceção ValueError, apenas retorna None. (Correção: a função calcular não levanta uma exceção ValueError se a operação for inválida, apenas retorna None)
+Conversão de Resultados
+
+Se o resultado da operação for um número inteiro, o programa imprime o resultado como um inteiro. Se o resultado for um número decimal, o programa imprime o resultado como um decimal com duas casas decimais. O usuário pode escolher converter o resultado para decimal ou inteiro.
+
+Sair
+
+Se o usuário escolher sair, o programa imprime uma mensagem de encerramento e sai.
