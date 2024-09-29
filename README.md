@@ -16,6 +16,18 @@ Para executar o script, basta executar o seguinte comando em um terminal bash de
 ```bash
 python3 ./exe_calculadora.sh
 ```
+
+Caso não não esteja sendo possivel executar o script, utilize o seguinte comando para verificar as permissões de execução de cada usuário/grupo de usuários:
+
+```bash
+ls -l
+```
+Caso seja nescessario adicionar permissão de execução para o script, utilize o seguinte comando:
+
+```bash
+chmod +x ./exe_calculadora.sh
+```
+
 # Requisitos
 
 ### No Windows
