@@ -20,10 +20,12 @@ python3 exe_calculadora.sh
 
 ### No Windows
 
-* Windows 10 ou Windows 11
-* WSL (Windows Subsystem for Linux)
-* Python 3.8 ou superior
+- Windows 10 ou Windows 11
+- WSL (Windows Subsystem for Linux)
+- Python 3.8 ou superior
+- Git
 
 ### No Linux
 
-* Python 3.8 ou superior
+- Python 3.8 ou superior
+- Git
